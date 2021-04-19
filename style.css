@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0;
+    background-color: #7c86ac;
+}
+
+.game-box {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tenis{
+    width: 30%;
+    margin-top: 30px;
+}
+
+#btn_one{
+    background-color: green;
+    border: 3px solid black;
+    width: 30%;
+}
+
+#btn_two{
+    background-color: orangered;
+    border: 3px solid black;
+    width: 30%;
+}
+
+#btn_reset{
+    background-color: red;
+    border: 3px solid black;
+    width: 30%;
+}
+
+#number{
+    background-color: white;
+    border: 3px solid black;
+    width: 5%;
+}
